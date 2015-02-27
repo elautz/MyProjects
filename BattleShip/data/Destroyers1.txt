@@ -1,0 +1,21 @@
+Highscores:
+1.  Player1 - 5
+2.  Player2 - 10
+3.  Player3 - 15
+4.  Joe Smith - 16
+5.Emma Laut - 17
+6. Emma Mather Lautz - 17
+7.  Emma Rocks! - 20
+8.  Emma Lautz - 30
+9.
+10.
+XXXXXBBBBX
+XXXXXXXXXX
+XXAAAAAXXX
+XXXXXXXXXX
+XXXXDDXXXX
+XXXXXDDXXX
+XXCXXXXXXX
+XXCXXXXXXX
+XXCXXXXXXX
+XXXXXXXXXX

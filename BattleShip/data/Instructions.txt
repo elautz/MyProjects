@@ -1,0 +1,11 @@
+Hello There!
+Setting up the Ships:
+
+First, set your own ships (on the left side of the game board). You can click any square on your game board and a pop-up window will appear. The pop-up window will allow you to set a type of ship and direction in the square you clicked. If you wish to delete a ship placement, simply click on any tile of the ship, and it will be cleared from the game board. After you set up your side of the game board, click the 'Choose File' button in order to set the ships for the computer. Choose a .battle file, which will contain the placements of ships for the computer.
+
+After both player's ships have been set, you can click the 'Start' button, and the game will commence. Once you have done this, you will no longer be in edit mode, and cannot change the placement of your ships.
+
+Playing the Game:
+
+The goal of the game is to sink all of your opponents ships. There is an Aircraft Carrier of size 5, a Battleship of size 4, a Cruiser of size 3, and two Destroyers each of size 2. Each time you make a move, the computer will choose a move at random against you. In order to make a move, simply click on one of the tiles on the Computer's side.
+DONE

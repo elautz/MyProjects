@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController modalPresentationStyle="currentContext" id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SIh-iB-Uhm">
+                                <rect key="frame" x="103" y="89" width="92" height="84"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="playButtonPushed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="wCD-Bv-4KC"/>
+                                    <action selector="playOneButtonPushed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="i26-EE-UAc"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="liK-cT-D6i">
+                                <rect key="frame" x="198" y="5" width="84" height="35"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0nz-ud-m7m">
+                                <rect key="frame" x="274" y="-2" width="38" height="42"/>
+                                <attributedString key="attributedText"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sSJ-K1-80k">
+                                <rect key="frame" x="103" y="274" width="92" height="105"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="playButtonPushed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="4Je-HP-JTb"/>
+                                    <action selector="playTwoButtonPushed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="6cO-8n-Epc"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V5G-fL-Y3l">
+                                <rect key="frame" x="89" y="460" width="109" height="147"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="playButtonPushed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="lPR-ZB-CRo"/>
+                                    <action selector="playThreeButtonPushed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="sjg-on-t2j"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wES-Wa-0hH">
+                                <rect key="frame" x="6" y="16" width="61" height="42"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Ny-lb-VNZ">
+                                <rect key="frame" x="80" y="16" width="70" height="42"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qhH-dT-9RM">
+                                <rect key="frame" x="-30" y="0.0" width="350" height="508"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="Tapped:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="bka-LU-TIP"/>
+                                    <action selector="playButtonPushed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="81O-l0-zFT"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wjx-Tj-96v">
+                                <rect key="frame" x="89" y="431" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HTM-nd-2ez">
+                                <rect key="frame" x="48" y="214" width="234" height="108"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="41"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QFj-Wr-wJ4">
+                                <rect key="frame" x="24" y="263" width="271" height="128"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="playGame:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="msp-uH-QmP"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2zn-76-rbP">
+                                <rect key="frame" x="12" y="412" width="296" height="169"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="learnButtonPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Kac-lQ-8fG"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fco-Ld-Fbf">
+                                <rect key="frame" x="230" y="83" width="52" height="50"/>
+                                <state key="normal" title="Try Again" image="GoBack">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="playGame:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="nss-38-F8h"/>
+                                    <action selector="tryAgainTouched:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="ouA-kV-tEx"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wwK-34-tWU">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="Pass:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="jST-VT-Guf"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.95225694439999997" blue="0.87586132329999999" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <keyCommands/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <connections>
+                        <outlet property="Level1" destination="SIh-iB-Uhm" id="HY6-n9-hbf"/>
+                        <outlet property="Level2" destination="sSJ-K1-80k" id="ug9-2C-8MR"/>
+                        <outlet property="Level3" destination="V5G-fL-Y3l" id="Sci-Sm-tIs"/>
+                        <outlet property="PassButton" destination="wwK-34-tWU" id="pGU-Tf-o31"/>
+                        <outlet property="Tap" destination="qhH-dT-9RM" id="h8T-b6-8iy"/>
+                        <outlet property="TryAgainButton" destination="fco-Ld-Fbf" id="lLB-QX-dc8"/>
+                        <outlet property="countdown" destination="7Ny-lb-VNZ" id="E7f-Eo-ml4"/>
+                        <outlet property="ghostCountdown" destination="wjx-Tj-96v" id="E1P-JC-Dtd"/>
+                        <outlet property="learnButton" destination="2zn-76-rbP" id="8iV-hx-2wc"/>
+                        <outlet property="messageLabel" destination="HTM-nd-2ez" id="rs1-jE-IWK"/>
+                        <outlet property="playGameButton" destination="QFj-Wr-wJ4" id="CKl-56-6rc"/>
+                        <outlet property="scoreLabel" destination="0nz-ud-m7m" id="Nr2-rP-Lf4"/>
+                        <outlet property="scoreTitle" destination="liK-cT-D6i" id="CnF-kd-e8A"/>
+                        <outlet property="timerTitle" destination="wES-Wa-0hH" id="9rE-kg-3jc"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="NdU-9w-SUD">
+                    <rect key="frame" x="0.0" y="0.0" width="589" height="600"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="58"/>
+                    <state key="normal">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="playButtonPushed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="OTu-n8-Vz3"/>
+                    </connections>
+                </button>
+                <view contentMode="scaleToFill" id="VY8-we-dZe">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+            </objects>
+            <point key="canvasLocation" x="687" y="92"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="GoBack" width="120" height="120"/>
+    </resources>
+</document>
